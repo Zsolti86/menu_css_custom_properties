@@ -1,0 +1,26 @@
+/* Globalis valtozok */
+:root {
+	--menu-bg-color: red;	/* Alapertelmezett szin (angol) */
+	--menu-text-color: white; 
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+#menu {
+	padding: 20px;
+	text-align: center;
+	background-color: var(--menu-bg-color);
+	color: var(--menu-text-color);
+}
+
+#languageSelector {
+	margin: 20px;
+	text-align: center;	
+}
+
+select {
+	padding: 5px;
+	font-size: 16px;
+}
